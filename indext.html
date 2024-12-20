@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- navber -->
+  <header class="container  mx-auto bg-white-500 shadow-2xl md: px-20   py-4">
+    <div class="flex justify-between items-center gap-">
+        <div class="flex justify-center items-center gap-10 ">
+          <div>
+            <a class="text-2xl font-bold" href="#">ShopNow</a>
+        </div>
+        <nav>
+            <ul class=" hidden md:flex justify-center items-center gap-5 ">
+                <li><a href="#" class="text-gray-600 hover:text-gray-900">Home</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-gray-900">Shoes</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-gray-900">Catagories</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-gray-900">About</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="space-x-2">
+            <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fa-solid fa-user"></i></a>
+            <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+   
+    </div>
+  </header>
+  <!-- hero section -->
+   <section>
+    <div class="relative">
+      <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNob3BwaW5nfGVufDB8fDB8fHww" alt="" class="w-full h-96 object-cover">
+      <div class="absolute inset-0 p-20 bg-black bg-opacity-50">
+        <div class="space-y-5">
+          <h2 class="text-6xl text-white font-extrabold">Summer Collection</h2>
+        <p class="text-white text-xl">Discover Our latest arrivals with   up to 50% off</p>
+        <button class="bg-white px-8 py-4 rounded-lg hover:bg-gray-200">Shop Now</button>
+        </div>
+      </div>
+
+    </div>
+    
+   </section>
+   <!-- card section -->
+    
+      <section class="container mx-auto px-20 py-4 mb-10">
+        <div class="mt-20 text-2xl text-gray-900 mb-5">
+     Feature Product
+        </div>
+        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-10">
+          <div class="max-w-sm bg-white-200 shadow-2xl  mb-10 ">
+            <img class=" w-full rounded-t-lg" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dCUyMHNoaXJ0fGVufDB8fDB8fHww" alt="">
+            <div class="mt-8 px-5 ">
+              <h2 class="text-base mt-2">Casual T-Shart</h2>
+              <p class="text-gray-500">$29.99</p>
+              <button class="bg-gray-900 text-white px-14  py-2 mt-3 rounded-lg">View Product</button>
+            </div>
+          </div>
+          
+          <div class="max-w-sm bg-white-200 shadow-2xl  mb-10">
+            <img class=" w-full rounded-t-lg  " src="https://5.imimg.com/data5/KK/OR/KE/ANDROID-98397717/prod-20191218-1013015918717023113357360-jpg-500x500.jpg" alt="">
+            <div class="mt-10 px-5 ">
+              <h2 class="text-base">Clasic Jeans</h2>
+              <p class="text-gray-500">$59.99</p>
+              <button class="bg-gray-900 text-white px-14  py-2  mt-2 rounded-lg">View Product</button>
+            </div>
+          </div>
+          
+          <div class="max-w-sm bg-white-200 shadow-2xl  mb-10 ">
+            <img class="w-full rounded-t-lg " src="https://trex.com.pk/uploads/trex/E2rzBwUDgRxXH19YPNkWPBAXj83sOqJ01iljg5zs.jpg" alt="">
+            <div class="mt-9 px-5 mb-3">
+              <h2 class="text-base">Sport Shoes T-Shart</h2>
+              <p class="text-gray-500">$89.99</p>
+              <button class="bg-gray-900 text-white px-14 py-2 mt-3  rounded-lg">View Product</button>
+            </div>
+          </div>
+          
+          <div class="max-w-sm bg-white-200 shadow-2xl mb-10 ">
+            <img class=" w-full rounded-t-lg " src="./copy-2.jpg" alt="">
+            <div class="mt-10 px-5 mb-3">
+              <h2 class="text-base">Leather Bag</h2>
+              <p class="text-gray-500">$129.99</p>
+              <button class="bg-gray-900 text-white px-14 py-2 rounded-lg mt-2 mb-">View Product</button>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <!-- products end -->
+       <!-- footer start -->
+        <footer class=" bg-gray-900">
+          <div class="container mx:auto px-20 py-4  mt-8">
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10">
+              <div>
+                <h2 class="text-white text-base font-bold mb-5">ShopNow</h2>
+                <p class="text-gray-500">Your one-stop destination for</p>
+                <h2 class="text-gray-500">fation.</h2>
+              </div>
+              <div>
+                <h2 class="text-base font-bold text-white mb-5">Quick Links</h2>
+                <h2 class="text-gray-500 mb-2">About Us</h2>
+                <h2 class="text-gray-500 mb-2">Contact</h2>
+                <h2 class="text-gray-500">FAQs</h2>
+              </div>
+              <div >
+               <h2 class="text-white text-base font-bold mb-5"> Catagories</h2>
+               <h2 class="text-gray-500 mb-2">Men</h2>
+              <h2 class="text-gray-500 mb-2" >Women</h2>
+               <h2 class="text-gray-500 mb-2">Accessories</h2>
+              </div>
+              <div>
+                <h2 class="text-white font-bold mb-5">Newsletter</h2>
+                <h2 class="text-gray-500">Subscribe to get special offers.</h2>
+                <input type="Enter Your email" class="bg-gray-800 mb-2 mt-5 hover:bg-white text-gray-500 px-10 py-2 rounded-lg" value="Enter Your email">
+
+                <input type="subscribe" class="bg-white-700 px-10 py-2 hover:bg-gray-200 text-center rounded-lg " value="Subscribe">
+              </div>
+              
+
+              </div>
+
+              </div>
+            
+      
+        </footer>
+
+
+
+
+
+  
+</body>
+</html>
